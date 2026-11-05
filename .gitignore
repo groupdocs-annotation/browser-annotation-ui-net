@@ -1,0 +1,13 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+out/
+output/
+results/
+TestResults/
+*.lic
+GroupDocs.Annotation.lic
+storage/

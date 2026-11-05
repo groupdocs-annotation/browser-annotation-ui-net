@@ -1,0 +1,15 @@
+# Source is normalised to LF in the repository and checked out per platform.
+* text=auto
+
+# Sample documents and images must stay byte-for-byte: a line-ending conversion
+# breaks a PDF cross-reference table and an Office package.
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.png  binary
+*.jpg  binary
+
+# Visual Studio is happier with CRLF in these.
+*.sln    text eol=crlf
+*.csproj text eol=crlf
